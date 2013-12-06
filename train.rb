@@ -8,7 +8,7 @@ class Train
   def initialize(model, speed)
     @model = model
     @speed = speed
-  end
+  end)
 
   # Calculate the time that a trip will take, in hours.
   #
@@ -31,7 +31,7 @@ class Train
   
   # duration units are hours and speed units are mph
   def trip_distance(duration)
-    duration / @speed
+     @speed / duration 
   end
 
 end
