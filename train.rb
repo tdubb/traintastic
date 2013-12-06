@@ -28,7 +28,8 @@ class Train
       'diesel'
     end
   end
-
+  
+  # duration units are hours and speed units are mph
   def trip_distance(duration)
     duration / @speed
   end
