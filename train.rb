@@ -8,7 +8,7 @@ class Train
   def initialize(model, speed)
     @model = model
     @speed = speed
-  end
+  end)
 
   # Calculate the time that a trip will take, in hours.
   #
